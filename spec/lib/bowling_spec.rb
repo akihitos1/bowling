@@ -10,7 +10,7 @@ describe "ボウリングのスコア計算" do
                     @game.add_score(0)
                 end
                 
-                expect(@game.total_score).to eq 20
+                expect(@game.total_score).to eq 0
             end
         end
     end
