@@ -153,7 +153,7 @@ describe "ボウリングのスコア計算" do
                 add_many_scores(20, 1)
                 # 合計を計算
                 @game.calc_score
-                expect(@game.frame_score(1)).to eq
+                expect(@game.frame_score(1)).to eq 2
             end
         end
         context "スペアを取った場合" do
